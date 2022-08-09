@@ -11,7 +11,6 @@ function regexBadCharacters(str) {
   return str.replace(/[^ a-zA-Z0-9,.:;[\]()/\!@#$%^&*+_{}<>=?~|"-]+/g,'').replace(/\s+/g, ' ')
 };
 
-//http://<URL>/?type=tts&language=en&text=<TEXT>
 server.on('request', async(req, res) => {
    
   let query = url.parse(req.url, true).query;
