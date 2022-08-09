@@ -1,4 +1,4 @@
-### TTS 2 MP3 API
+### TTS To MP3 API
 
 A simple way to get an mp3 file or audio buffer data as an api call
 
