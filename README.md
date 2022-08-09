@@ -12,4 +12,4 @@ npm start
 
 or build and run the project as a docker file to start it up.
 
-Then navigate to http://<URL>/?type=tts&language=en&text=<TEXT>
+Then navigate to http://"URL"/?type=tts&language=en&text="TEXT"
